@@ -1,0 +1,20 @@
+name: api-dotnet-rust-memory-bench
+services:
+  dotnet:
+    build: ./dotnet
+    cpus: 1
+    mem_limit: 1g
+    ports: ["127.0.0.1:18086:8080"]
+    volumes: ["./monitor.sh:/monitor.sh:ro"]
+  rust:
+    build: ./rust
+    cpus: 1
+    mem_limit: 1g
+    ports: ["127.0.0.1:18087:8080"]
+    volumes: ["./monitor.sh:/monitor.sh:ro"]
+  loadgen:
+    build: ./loadgen
+    profiles: ["tools"]
+    cpus: 4
+    mem_limit: 2g
+    volumes: ["./results:/results", "./payloads:/payloads:ro"]

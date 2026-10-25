@@ -1,0 +1,39 @@
+{
+  "StartedUtc": "2026-10-25T00:05:43.0583875+00:00",
+  "Options": {
+    "Command": "run",
+    "Ccu": [
+      100,
+      1000,
+      5000,
+      10000
+    ],
+    "Rows": 100000,
+    "PayloadBytes": 256,
+    "DurationSeconds": 15,
+    "WarmupSeconds": 5,
+    "CooldownSeconds": 2,
+    "Repetitions": 2,
+    "MaxInflight": 256,
+    "TimeoutSeconds": 30,
+    "Seed": 42,
+    "Database": "cassandra,scylla",
+    "Output": "/results",
+    "Databases": [
+      "cassandra",
+      "scylla"
+    ]
+  },
+  "Runtime": ".NET 10.0.13",
+  "OS": "Ubuntu 24.04.5 LTS",
+  "Architecture": "X64",
+  "ProcessorCount": 2,
+  "Model": "closed-loop, zero think time, uniform random primary-key read; sequential databases; alternating order per repetition",
+  "Latency": "all attempts include application queue \u002B driver \u002B database; logarithmic percentiles upper bound ~1%; success-only also exported",
+  "Throughput": "successful attempts / actual wall seconds including drain; admission stops at configured duration",
+  "Cql": "Cassandra/Scylla: shared driver, protocol V4, single node, RF=1, consistency ONE, prepared SELECT, 2 local connections, 2048 max requests/connection, no retry policy",
+  "PostgreSql": "single node, auto-prepared parameterized SELECT, connection pool capped at max-inflight",
+  "MongoDb": "standalone, primary read preference, local read concern, _id lookup, payload-only projection, retries disabled, pool capped at max-inflight",
+  "Queue": "same application inflight limit for selected drivers; queue timeout and driver timeout are separate budgets",
+  "WarmCache": true
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "path": "dotnet10/Program.cs",
+    "bytes": 2229,
+    "sha256": "6ac0204ba0c78ffa398f8015e4e6f2cd846999edb6a8e28b18e3b03daa7ac34c"
+  },
+  {
+    "path": "dotnet10/Api.csproj",
+    "bytes": 265,
+    "sha256": "25e9385fa7053264d6b20be455942ad1548a587fc006e017350d193d6a1a36b4"
+  },
+  {
+    "path": "dotnet10/Dockerfile",
+    "bytes": 378,
+    "sha256": "cff6f80dc6490ccc879e77823ffc49132ad855b63221699c9b7cfc0afa7fadb1"
+  },
+  {
+    "path": "dotnet11/Program.cs",
+    "bytes": 2229,
+    "sha256": "6ac0204ba0c78ffa398f8015e4e6f2cd846999edb6a8e28b18e3b03daa7ac34c"
+  },
+  {
+    "path": "dotnet11/Api.csproj",
+    "bytes": 265,
+    "sha256": "00465e51b90a59f40fe1c92382031633c67fb4466983775f65eb7d0fdf5fc92f"
+  },
+  {
+    "path": "dotnet11/Dockerfile",
+    "bytes": 387,
+    "sha256": "3465a8ad0c187d760be571cb2e439fa3fbfb009f8164dfc14f1a06cc70683de9"
+  },
+  {
+    "path": "loadgen/Program.cs",
+    "bytes": 14944,
+    "sha256": "4efa6aca771b7e93afe03839a2f7a5ed27c1e82c43b4fc5501bb74550f9766de"
+  },
+  {
+    "path": "loadgen/Metrics.cs",
+    "bytes": 1669,
+    "sha256": "5cb27ec4c37b5fe05dcb2a4c2214b9cf016fbd16189815827f454f9ac7ff0190"
+  },
+  {
+    "path": "loadgen/Loadgen.csproj",
+    "bytes": 294,
+    "sha256": "cbda77be076f6ff67d1a510c950892ab127591d8dec1e78eb4f9a23d48b41661"
+  },
+  {
+    "path": "loadgen/Dockerfile",
+    "bytes": 304,
+    "sha256": "d1979c4400def676bafc52d4f1e2307f94c8a015741093b0f33f5bf18d454210"
+  },
+  {
+    "path": "compose.yaml",
+    "bytes": 481,
+    "sha256": "ab2f152a3275d103807b1f0df87d5c2cc4591c51df2a7d77eec82de114c6d0f3"
+  },
+  {
+    "path": "monitor.sh",
+    "bytes": 1219,
+    "sha256": "476547b25f136961b20a08071503cf57049a289855f5480fcdb04d8c46f498e5"
+  },
+  {
+    "path": "Run-Benchmark.mjs",
+    "bytes": 5764,
+    "sha256": "ac06bff60b588cc01de519aca0633dd92e4c1956ee112ec1bf5a401f5bfe8723"
+  },
+  {
+    "path": "Analyze-Memory.mjs",
+    "bytes": 5708,
+    "sha256": "30388876f16dfc5a18b00c0fdb86a3505d98f05a47c7b1ddb7b931a0e52b1d06"
+  },
+  {
+    "path": "payloads/input.json",
+    "bytes": 4096,
+    "sha256": "ef3e45cb72274671d9f74a7c0f6f05d81c67990aaa202a89784b899562c6fff5"
+  }
+]

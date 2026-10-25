@@ -1,0 +1,46 @@
+[
+  {
+    "ccu": 100,
+    "cassandraRps": 26125.353534899907,
+    "scyllaRps": 43813.21751337561,
+    "cassandraRpsRange": "25967.42–26283.28",
+    "scyllaRpsRange": "38550.33–49076.11",
+    "cassandraP95": "6.61–7.75",
+    "scyllaP95": "4.85–5.92",
+    "cassandraClientCores": 1.113960507607861,
+    "scyllaClientCores": 1.7079392121768884
+  },
+  {
+    "ccu": 1000,
+    "cassandraRps": 24943.3782116215,
+    "scyllaRps": 41793.4793919331,
+    "cassandraRpsRange": "22615.27–27271.49",
+    "scyllaRpsRange": "41528.82–42058.14",
+    "cassandraP95": "69.87–76.41",
+    "scyllaP95": "32.15–33.13",
+    "cassandraClientCores": 1.1562768289032626,
+    "scyllaClientCores": 1.6853681132342007
+  },
+  {
+    "ccu": 5000,
+    "cassandraRps": 20556.896724188315,
+    "scyllaRps": 36430.82832846519,
+    "cassandraRpsRange": "20287.04–20826.76",
+    "scyllaRpsRange": "36390.58–36471.07",
+    "cassandraP95": "298.66–310.79",
+    "scyllaP95": "169.38–174.51",
+    "cassandraClientCores": 1.0616887644149477,
+    "scyllaClientCores": 1.5911129375290924
+  },
+  {
+    "ccu": 10000,
+    "cassandraRps": 19967.84468937744,
+    "scyllaRps": 33957.68719361218,
+    "cassandraRpsRange": "19688.84–20246.85",
+    "scyllaRpsRange": "32562.32–35353.05",
+    "cassandraP95": "605.34–611.39",
+    "scyllaP95": "339.91–390.71",
+    "cassandraClientCores": 1.0725400179875533,
+    "scyllaClientCores": 1.5980480857836565
+  }
+]

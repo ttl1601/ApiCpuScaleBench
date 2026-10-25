@@ -1,0 +1,418 @@
+[
+  {
+    "Database": "postgres",
+    "Ccu": 100,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 100,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.0271295,
+    "DrainSeconds": 0.02712950000000003,
+    "Success": 25645,
+    "Errors": 0,
+    "SuccessRps": 8471.722138084942,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 25645,
+      "MeanMs": 11.773128029245466,
+      "P50Ms": 7.596152181404612,
+      "P95Ms": 46.00047449691562,
+      "P99Ms": 57.83009536400244,
+      "MaxMs": 87.966107
+    },
+    "SuccessLatency": {
+      "Count": 25645,
+      "MeanMs": 11.773128029245466,
+      "P50Ms": 7.596152181404612,
+      "P95Ms": 46.00047449691562,
+      "P99Ms": 57.83009536400244,
+      "MaxMs": 87.966107
+    },
+    "QueueLatency": {
+      "Count": 25645,
+      "MeanMs": 0.0011822251900955353,
+      "P50Ms": 0.001,
+      "P95Ms": 0.001,
+      "P99Ms": 0.001430768783591581,
+      "MaxMs": 8.225355
+    },
+    "ServiceLatency": {
+      "Count": 25645,
+      "MeanMs": 11.771719954533047,
+      "P50Ms": 7.596152181404612,
+      "P95Ms": 45.54502425437191,
+      "P99Ms": 57.83009536400244,
+      "MaxMs": 87.965687
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 6.003171,
+    "ClientAllocatedBytes": 74825992,
+    "Gen0Collections": 16,
+    "Gen1Collections": 1,
+    "Gen2Collections": 0
+  },
+  {
+    "Database": "scylla",
+    "Ccu": 100,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 100,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.002022,
+    "DrainSeconds": 0.0020220000000001903,
+    "Success": 121253,
+    "Errors": 0,
+    "SuccessRps": 40390.44350774244,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 121253,
+      "MeanMs": 2.473786887540927,
+      "P50Ms": 1.5305674665382716,
+      "P95Ms": 6.350514744884559,
+      "P99Ms": 19.548982874805816,
+      "MaxMs": 63.416097
+    },
+    "SuccessLatency": {
+      "Count": 121253,
+      "MeanMs": 2.473786887540927,
+      "P50Ms": 1.5305674665382716,
+      "P95Ms": 6.350514744884559,
+      "P99Ms": 19.548982874805816,
+      "MaxMs": 63.416097
+    },
+    "QueueLatency": {
+      "Count": 121253,
+      "MeanMs": 9.269848993426967E-05,
+      "P50Ms": 0.001,
+      "P95Ms": 0.001,
+      "P99Ms": 0.001,
+      "MaxMs": 0.374605
+    },
+    "ServiceLatency": {
+      "Count": 121253,
+      "MeanMs": 2.473475648808689,
+      "P50Ms": 1.5305674665382716,
+      "P95Ms": 6.350514744884559,
+      "P99Ms": 19.548982874805816,
+      "MaxMs": 53.656192
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 5.23919,
+    "ClientAllocatedBytes": 1045375376,
+    "Gen0Collections": 176,
+    "Gen1Collections": 82,
+    "Gen2Collections": 8
+  },
+  {
+    "Database": "postgres",
+    "Ccu": 1000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.0975222,
+    "DrainSeconds": 0.09752219999999978,
+    "Success": 23821,
+    "Errors": 0,
+    "SuccessRps": 7690.340363016608,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 23821,
+      "MeanMs": 128.18255065534612,
+      "P50Ms": 113.76464755150658,
+      "P95Ms": 200.5975531617745,
+      "P99Ms": 265.04773497454437,
+      "MaxMs": 384.360613
+    },
+    "SuccessLatency": {
+      "Count": 23821,
+      "MeanMs": 128.18255065534612,
+      "P50Ms": 113.76464755150658,
+      "P95Ms": 200.5975531617745,
+      "P99Ms": 265.04773497454437,
+      "MaxMs": 384.360613
+    },
+    "QueueLatency": {
+      "Count": 23821,
+      "MeanMs": 100.29111535707989,
+      "P50Ms": 99.96074092291859,
+      "P95Ms": 172.78459706775226,
+      "P99Ms": 196.64498888518233,
+      "MaxMs": 219.247931
+    },
+    "ServiceLatency": {
+      "Count": 23821,
+      "MeanMs": 27.890629905671467,
+      "P50Ms": 11.422731852687486,
+      "P95Ms": 79.51295055929958,
+      "P99Ms": 94.16753969891565,
+      "MaxMs": 285.588334
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 3.539312,
+    "ClientAllocatedBytes": 78526072,
+    "Gen0Collections": 14,
+    "Gen1Collections": 7,
+    "Gen2Collections": 1
+  },
+  {
+    "Database": "scylla",
+    "Ccu": 1000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.0222807,
+    "DrainSeconds": 0.022280700000000042,
+    "Success": 109561,
+    "Errors": 0,
+    "SuccessRps": 36251.10003845771,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 109561,
+      "MeanMs": 27.471313046951014,
+      "P50Ms": 26.878691778478313,
+      "P95Ms": 40.41889648922498,
+      "P99Ms": 48.34696100562706,
+      "MaxMs": 65.229178
+    },
+    "SuccessLatency": {
+      "Count": 109561,
+      "MeanMs": 27.471313046951014,
+      "P50Ms": 26.878691778478313,
+      "P95Ms": 40.41889648922498,
+      "P99Ms": 48.34696100562706,
+      "MaxMs": 65.229178
+    },
+    "QueueLatency": {
+      "Count": 109561,
+      "MeanMs": 21.79219681645841,
+      "P50Ms": 20.546177470653703,
+      "P95Ms": 32.15087932058675,
+      "P99Ms": 39.622484549774505,
+      "MaxMs": 49.304565
+    },
+    "ServiceLatency": {
+      "Count": 109561,
+      "MeanMs": 5.678866628727376,
+      "P50Ms": 4.181299050858944,
+      "P95Ms": 13.130135709392277,
+      "P99Ms": 17.52221700403786,
+      "MaxMs": 25.610852
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 5.131302,
+    "ClientAllocatedBytes": 1024579088,
+    "Gen0Collections": 170,
+    "Gen1Collections": 164,
+    "Gen2Collections": 6
+  },
+  {
+    "Database": "postgres",
+    "Ccu": 5000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.4887056,
+    "DrainSeconds": 0.48870559999999985,
+    "Success": 34808,
+    "Errors": 0,
+    "SuccessRps": 9977.339446469774,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 34808,
+      "MeanMs": 461.1539093300678,
+      "P50Ms": 501.0626365612987,
+      "P95Ms": 570.2560197466016,
+      "P99Ms": 581.7181657435083,
+      "MaxMs": 616.215004
+    },
+    "SuccessLatency": {
+      "Count": 34808,
+      "MeanMs": 461.1539093300678,
+      "P50Ms": 501.0626365612987,
+      "P95Ms": 570.2560197466016,
+      "P99Ms": 581.7181657435083,
+      "MaxMs": 616.215004
+    },
+    "QueueLatency": {
+      "Count": 34808,
+      "MeanMs": 441.51119315746377,
+      "P50Ms": 491.1897231264569,
+      "P95Ms": 521.4077888668601,
+      "P99Ms": 559.0197233081085,
+      "MaxMs": 574.82104
+    },
+    "ServiceLatency": {
+      "Count": 34808,
+      "MeanMs": 19.64236952783843,
+      "P50Ms": 6.945464450445124,
+      "P95Ms": 66.47420336999338,
+      "P99Ms": 75.6538441775454,
+      "MaxMs": 185.633776
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 3.504029,
+    "ClientAllocatedBytes": 115756384,
+    "Gen0Collections": 20,
+    "Gen1Collections": 6,
+    "Gen2Collections": 1
+  },
+  {
+    "Database": "scylla",
+    "Ccu": 5000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.1198359,
+    "DrainSeconds": 0.1198359,
+    "Success": 103609,
+    "Errors": 0,
+    "SuccessRps": 33209.759526134054,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 103609,
+      "MeanMs": 147.59341333996082,
+      "P50Ms": 140.20263473894462,
+      "P95Ms": 249.68695584768926,
+      "P99Ms": 360.816745117852,
+      "MaxMs": 374.281073
+    },
+    "SuccessLatency": {
+      "Count": 103609,
+      "MeanMs": 147.59341333996082,
+      "P50Ms": 140.20263473894462,
+      "P95Ms": 249.68695584768926,
+      "P99Ms": 360.816745117852,
+      "MaxMs": 374.281073
+    },
+    "QueueLatency": {
+      "Count": 103609,
+      "MeanMs": 141.37996719961586,
+      "P50Ms": 134.73197622882944,
+      "P95Ms": 242.34369941181194,
+      "P99Ms": 357.2443020968832,
+      "MaxMs": 367.362731
+    },
+    "ServiceLatency": {
+      "Count": 103609,
+      "MeanMs": 6.212800850051636,
+      "P50Ms": 3.861359521649451,
+      "P95Ms": 15.705578684212913,
+      "P99Ms": 25.574152954979734,
+      "MaxMs": 67.227593
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 5.13393,
+    "ClientAllocatedBytes": 965470944,
+    "Gen0Collections": 161,
+    "Gen1Collections": 42,
+    "Gen2Collections": 6
+  },
+  {
+    "Database": "postgres",
+    "Ccu": 10000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 4.423945,
+    "DrainSeconds": 1.4239449999999998,
+    "Success": 32688,
+    "Errors": 0,
+    "SuccessRps": 7388.880286712426,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 32688,
+      "MeanMs": 1151.7925484036039,
+      "P50Ms": 1341.8625235419938,
+      "P95Ms": 1589.1737329240536,
+      "P99Ms": 1605.065470253294,
+      "MaxMs": 1675.966697
+    },
+    "SuccessLatency": {
+      "Count": 32688,
+      "MeanMs": 1151.7925484036039,
+      "P50Ms": 1341.8625235419938,
+      "P95Ms": 1589.1737329240536,
+      "P99Ms": 1605.065470253294,
+      "MaxMs": 1675.966697
+    },
+    "QueueLatency": {
+      "Count": 32688,
+      "MeanMs": 1125.6219980305311,
+      "P50Ms": 1315.4225306754179,
+      "P95Ms": 1542.4363685214842,
+      "P99Ms": 1589.1737329240536,
+      "MaxMs": 1594.516771
+    },
+    "ServiceLatency": {
+      "Count": 32688,
+      "MeanMs": 26.169978832109642,
+      "P50Ms": 10.137094533079102,
+      "P95Ms": 71.98203687048206,
+      "P99Ms": 88.71008208897484,
+      "MaxMs": 191.266839
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 4.655115,
+    "ClientAllocatedBytes": 109881624,
+    "Gen0Collections": 18,
+    "Gen1Collections": 5,
+    "Gen2Collections": 1
+  },
+  {
+    "Database": "scylla",
+    "Ccu": 10000,
+    "Repetition": 1,
+    "MaxInflight": 256,
+    "PeakInflight": 256,
+    "AdmissionSeconds": 3,
+    "WallSeconds": 3.238934,
+    "DrainSeconds": 0.23893399999999998,
+    "Success": 102473,
+    "Errors": 0,
+    "SuccessRps": 31637.87838838334,
+    "ErrorPercent": 0,
+    "AllLatency": {
+      "Count": 102473,
+      "MeanMs": 303.2876965050696,
+      "P50Ms": 295.70536826643695,
+      "P95Ms": 410.64311308643835,
+      "P99Ms": 418.89703965947575,
+      "MaxMs": 437.017857
+    },
+    "SuccessLatency": {
+      "Count": 102473,
+      "MeanMs": 303.2876965050696,
+      "P50Ms": 295.70536826643695,
+      "P95Ms": 410.64311308643835,
+      "P99Ms": 418.89703965947575,
+      "MaxMs": 437.017857
+    },
+    "QueueLatency": {
+      "Count": 102473,
+      "MeanMs": 296.699123450548,
+      "P50Ms": 289.87880430000683,
+      "P95Ms": 398.5661598760346,
+      "P99Ms": 414.7495442173027,
+      "MaxMs": 416.857991
+    },
+    "ServiceLatency": {
+      "Count": 102473,
+      "MeanMs": 6.588153946415153,
+      "P50Ms": 4.48291853015736,
+      "P95Ms": 17.176960105909085,
+      "P99Ms": 23.151947047466162,
+      "MaxMs": 30.78032
+    },
+    "ErrorTypes": {},
+    "ClientCpuSeconds": 5.409522,
+    "ClientAllocatedBytes": 956342704,
+    "Gen0Collections": 161,
+    "Gen1Collections": 50,
+    "Gen2Collections": 7
+  }
+]

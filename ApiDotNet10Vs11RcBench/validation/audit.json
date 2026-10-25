@@ -1,0 +1,10 @@
+{
+  "scenarios": 18,
+  "freshContainers": 18,
+  "verifiedSourceHashes": 15,
+  "identicalProgram": true,
+  "allExitZero": true,
+  "allPeakInflightMatch": true,
+  "errors": 0,
+  "success": 1570609
+}

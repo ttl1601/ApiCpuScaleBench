@@ -1,0 +1,116 @@
+[
+  {
+    "api": "dotnet10",
+    "ccu": 100,
+    "baseline_rss_mib": 67.125,
+    "load_rss_mean_mib": 83.21875,
+    "load_rss_median_mib": 83.5,
+    "load_rss_sampled_max_mib": 85.125,
+    "process_hwm_mib": 91.875,
+    "post_idle_rss_mib": 91.875,
+    "load_cgroup_current_sampled_max_mib": 34.203125,
+    "load_cgroup_working_set_sampled_max_mib": 34.203125,
+    "cgroup_lifetime_peak_mib": 42.2734375,
+    "success_rps": 4514.421185694728,
+    "p95_ms": 71.98203687048206,
+    "rss_max_range": [
+      85,
+      85.625
+    ]
+  },
+  {
+    "api": "dotnet11",
+    "ccu": 100,
+    "baseline_rss_mib": 67.375,
+    "load_rss_mean_mib": 82.8783203125,
+    "load_rss_median_mib": 82.99609375,
+    "load_rss_sampled_max_mib": 84.24609375,
+    "process_hwm_mib": 88.74609375,
+    "post_idle_rss_mib": 88.74609375,
+    "load_cgroup_current_sampled_max_mib": 33.75,
+    "load_cgroup_working_set_sampled_max_mib": 33.75,
+    "cgroup_lifetime_peak_mib": 38.9921875,
+    "success_rps": 4810.578095932697,
+    "p95_ms": 60.17822913446335,
+    "rss_max_range": [
+      83.9921875,
+      85.375
+    ]
+  },
+  {
+    "api": "dotnet10",
+    "ccu": 1000,
+    "baseline_rss_mib": 67.75,
+    "load_rss_mean_mib": 105.4875,
+    "load_rss_median_mib": 106,
+    "load_rss_sampled_max_mib": 107.6015625,
+    "process_hwm_mib": 113.9765625,
+    "post_idle_rss_mib": 113.9765625,
+    "load_cgroup_current_sampled_max_mib": 60.7890625,
+    "load_cgroup_working_set_sampled_max_mib": 60.7890625,
+    "cgroup_lifetime_peak_mib": 66.66015625,
+    "success_rps": 4640.879504179608,
+    "p95_ms": 326.64269238997457,
+    "rss_max_range": [
+      107.375,
+      109.21484375
+    ]
+  },
+  {
+    "api": "dotnet11",
+    "ccu": 1000,
+    "baseline_rss_mib": 67,
+    "load_rss_mean_mib": 108.12734375,
+    "load_rss_median_mib": 108.1953125,
+    "load_rss_sampled_max_mib": 109.46484375,
+    "process_hwm_mib": 114.1328125,
+    "post_idle_rss_mib": 114.1328125,
+    "load_cgroup_current_sampled_max_mib": 66.40625,
+    "load_cgroup_working_set_sampled_max_mib": 66.40625,
+    "cgroup_lifetime_peak_mib": 69.51953125,
+    "success_rps": 4065.553357175322,
+    "p95_ms": 379.2220253632326,
+    "rss_max_range": [
+      109.0078125,
+      109.609375
+    ]
+  },
+  {
+    "api": "dotnet10",
+    "ccu": 5000,
+    "baseline_rss_mib": 67,
+    "load_rss_mean_mib": 173.8139880952381,
+    "load_rss_median_mib": 177.09375,
+    "load_rss_sampled_max_mib": 180.59375,
+    "process_hwm_mib": 187,
+    "post_idle_rss_mib": 187,
+    "load_cgroup_current_sampled_max_mib": 159.06640625,
+    "load_cgroup_working_set_sampled_max_mib": 159.06640625,
+    "cgroup_lifetime_peak_mib": 166.421875,
+    "success_rps": 4045.7970818715057,
+    "p95_ms": 1686.939940304695,
+    "rss_max_range": [
+      180.5,
+      181.53125
+    ]
+  },
+  {
+    "api": "dotnet11",
+    "ccu": 5000,
+    "baseline_rss_mib": 66.875,
+    "load_rss_mean_mib": 188.16369047619048,
+    "load_rss_median_mib": 189.26953125,
+    "load_rss_sampled_max_mib": 190.9375,
+    "process_hwm_mib": 195.0625,
+    "post_idle_rss_mib": 195.0625,
+    "load_cgroup_current_sampled_max_mib": 183.39453125,
+    "load_cgroup_working_set_sampled_max_mib": 183.39453125,
+    "cgroup_lifetime_peak_mib": 186.87890625,
+    "success_rps": 3860.6287622755076,
+    "p95_ms": 1958.4849002674694,
+    "rss_max_range": [
+      186,
+      191.20703125
+    ]
+  }
+]

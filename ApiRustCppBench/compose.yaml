@@ -1,0 +1,19 @@
+name: api-rust-cpp-bench
+services:
+  cpp:
+    build: ./cpp
+    cpus: 1
+    mem_limit: 1g
+    ports: ["127.0.0.1:18084:8080"]
+  rust:
+    build: ./rust
+    cpus: 1
+    mem_limit: 1g
+    ports: ["127.0.0.1:18085:8080"]
+  loadgen:
+    build: ./loadgen
+    profiles: ["tools"]
+    cpus: 4
+    mem_limit: 2g
+    volumes: ["./results:/results", "./payloads:/payloads:ro"]
+    command: ["run", "--ccu", "100,1000,5000", "--seconds", "20", "--warmup", "5", "--repetitions", "3"]

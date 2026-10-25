@@ -1,0 +1,82 @@
+[
+  {
+    "path": "dotnet/Program.cs",
+    "bytes": 2229,
+    "sha256": "6ac0204ba0c78ffa398f8015e4e6f2cd846999edb6a8e28b18e3b03daa7ac34c"
+  },
+  {
+    "path": "dotnet/Api.csproj",
+    "bytes": 265,
+    "sha256": "25e9385fa7053264d6b20be455942ad1548a587fc006e017350d193d6a1a36b4"
+  },
+  {
+    "path": "dotnet/Dockerfile",
+    "bytes": 353,
+    "sha256": "d183a8c12626023aefd67d3cb08a878924763d7ce570ed064c810b2a1df98529"
+  },
+  {
+    "path": "rust/src/main.rs",
+    "bytes": 1112,
+    "sha256": "ff3574b354e43e5a31aa0652d1db96904bc85caf25280b3ec21d080f556bb57d"
+  },
+  {
+    "path": "rust/Cargo.toml",
+    "bytes": 286,
+    "sha256": "c948f60afaaf82d3a31acc60cb8017878143125bfd21151c161e74741333b8eb"
+  },
+  {
+    "path": "rust/Cargo.lock",
+    "bytes": 12237,
+    "sha256": "0bf1f1fbce8e052e5aa0824c34723428acbbf19b4f62597d196075e97564d413"
+  },
+  {
+    "path": "rust/Dockerfile",
+    "bytes": 255,
+    "sha256": "f3f6a6b3a177d8492fed515cd48bb092d57dfad8195407f7a9166150020ae96d"
+  },
+  {
+    "path": "loadgen/Program.cs",
+    "bytes": 14912,
+    "sha256": "85da6c867ac8f0ce2623dee44e413d53a6b3345fb4dfcfb061125ff4aa89704a"
+  },
+  {
+    "path": "loadgen/Metrics.cs",
+    "bytes": 1669,
+    "sha256": "5cb27ec4c37b5fe05dcb2a4c2214b9cf016fbd16189815827f454f9ac7ff0190"
+  },
+  {
+    "path": "loadgen/Loadgen.csproj",
+    "bytes": 294,
+    "sha256": "cbda77be076f6ff67d1a510c950892ab127591d8dec1e78eb4f9a23d48b41661"
+  },
+  {
+    "path": "loadgen/Dockerfile",
+    "bytes": 304,
+    "sha256": "d1979c4400def676bafc52d4f1e2307f94c8a015741093b0f33f5bf18d454210"
+  },
+  {
+    "path": "compose.yaml",
+    "bytes": 472,
+    "sha256": "3b9e212c1fecb84d09858907ff5482ed1b06092a0d56154e266e9bae2125e269"
+  },
+  {
+    "path": "monitor.sh",
+    "bytes": 1219,
+    "sha256": "476547b25f136961b20a08071503cf57049a289855f5480fcdb04d8c46f498e5"
+  },
+  {
+    "path": "Run-Benchmark.mjs",
+    "bytes": 5537,
+    "sha256": "22a32ef276cd87d9d0661ed3a1d4ca3e98271af40cc505fe439e95614b52d13d"
+  },
+  {
+    "path": "Analyze-Memory.mjs",
+    "bytes": 5702,
+    "sha256": "76fe081cb8b319fb4f947813df64f2af7602086ff29c9346a21a3812c2b40fcd"
+  },
+  {
+    "path": "payloads/input.json",
+    "bytes": 4096,
+    "sha256": "ef3e45cb72274671d9f74a7c0f6f05d81c67990aaa202a89784b899562c6fff5"
+  }
+]

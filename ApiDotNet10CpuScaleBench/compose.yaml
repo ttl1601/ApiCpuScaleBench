@@ -1,0 +1,25 @@
+name: api-dotnet10-cpu-scale-bench
+x-api: &api
+  image: api-dotnet10-cpu-scale:bench
+  build: ./dotnet
+  mem_limit: 1g
+  volumes: ["./monitor.sh:/monitor.sh:ro"]
+services:
+  cpu1:
+    <<: *api
+    cpus: 1
+    ports: ["127.0.0.1:18090:8080"]
+  cpu2:
+    <<: *api
+    cpus: 2
+    ports: ["127.0.0.1:18091:8080"]
+  cpu4:
+    <<: *api
+    cpus: 4
+    ports: ["127.0.0.1:18092:8080"]
+  loadgen:
+    build: ./loadgen
+    profiles: ["tools"]
+    cpus: 4
+    mem_limit: 2g
+    volumes: ["./results:/results", "./payloads:/payloads:ro"]

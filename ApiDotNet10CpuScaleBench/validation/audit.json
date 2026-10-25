@@ -1,0 +1,17 @@
+{
+  "scenarioCount": 27,
+  "freshContainers": 27,
+  "commonApiImage": "sha256:80ceb3534815d75253afe916adeb3bff7308e5f65aa62d50961d98911cc2bf31",
+  "verifiedSourceHashes": 12,
+  "allQuotaChecks": true,
+  "allRuntimeCpuCountsMatch": true,
+  "allPeakInflightMatch": true,
+  "allExitZero": true,
+  "observedGc": {
+    "cpu1": "Workstation",
+    "cpu2": "Server",
+    "cpu4": "Server"
+  },
+  "success": 4439206,
+  "errors": 0
+}

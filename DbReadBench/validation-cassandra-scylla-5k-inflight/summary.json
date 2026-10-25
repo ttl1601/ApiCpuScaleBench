@@ -1,0 +1,32 @@
+[
+  {
+    "database": "cassandra",
+    "meanSuccessRps": 6883.670443660036,
+    "p95MsRange": "1226.92–2692.80",
+    "p99MsRange": "1738.06–3385.29",
+    "applicationPeak": 5000,
+    "driverPeak": 5000,
+    "driverMean": 4612.159418608249,
+    "driverConnections": 4,
+    "driverSamples": 2169,
+    "queueP95MsRange": "0.00–0.00",
+    "serviceP95MsRange": "1226.92–2692.80",
+    "errors": 0,
+    "clientCores": 0.9349011240213596
+  },
+  {
+    "database": "scylla",
+    "meanSuccessRps": 15043.793139082985,
+    "p95MsRange": "542.58–1424.41",
+    "p99MsRange": "702.78–2038.01",
+    "applicationPeak": 5000,
+    "driverPeak": 5000,
+    "driverMean": 2663.6667261462617,
+    "driverConnections": 4,
+    "driverSamples": 1004,
+    "queueP95MsRange": "0.00–0.00",
+    "serviceP95MsRange": "542.58–1424.41",
+    "errors": 0,
+    "clientCores": 1.4861586570956595
+  }
+]

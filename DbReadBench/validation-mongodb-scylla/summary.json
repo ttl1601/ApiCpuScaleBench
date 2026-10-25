@@ -1,0 +1,38 @@
+[
+  {
+    "ccu": 100,
+    "mongoRps": 11443.912722905434,
+    "scyllaRps": 51917.49624713897,
+    "mongoP95": "46.00–48.83",
+    "scyllaP95": "3.86–4.53",
+    "mongoClientCores": 1.5964258447412782,
+    "scyllaClientCores": 1.912490645020208
+  },
+  {
+    "ccu": 1000,
+    "mongoRps": 11606.06883184261,
+    "scyllaRps": 57966.41860568263,
+    "mongoP95": "111.52–126.92",
+    "scyllaP95": "23.62–25.07",
+    "mongoClientCores": 1.57757014584616,
+    "scyllaClientCores": 1.7122560873307293
+  },
+  {
+    "ccu": 5000,
+    "mongoRps": 11566.68722270456,
+    "scyllaRps": 47746.25391656892,
+    "mongoP95": "521.41–605.34",
+    "scyllaP95": "119.57–126.92",
+    "mongoClientCores": 1.5661727920724693,
+    "scyllaClientCores": 1.5794505726592878
+  },
+  {
+    "ccu": 10000,
+    "mongoRps": 11066.157560587846,
+    "scyllaRps": 45834.38301248147,
+    "mongoP95": "1121.82–1179.04",
+    "scyllaP95": "249.69–249.69",
+    "mongoClientCores": 1.4456101043364553,
+    "scyllaClientCores": 1.5685978802769815
+  }
+]

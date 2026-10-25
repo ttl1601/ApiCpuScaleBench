@@ -1,0 +1,62 @@
+[
+  {
+    "path": "dotnet/Program.cs",
+    "bytes": 2567,
+    "sha256": "f04fe2251a0dc2e06c4635c24ab62f50030e920c6d24f699da406688ef83718a"
+  },
+  {
+    "path": "dotnet/Api.csproj",
+    "bytes": 265,
+    "sha256": "25e9385fa7053264d6b20be455942ad1548a587fc006e017350d193d6a1a36b4"
+  },
+  {
+    "path": "dotnet/Dockerfile",
+    "bytes": 378,
+    "sha256": "cff6f80dc6490ccc879e77823ffc49132ad855b63221699c9b7cfc0afa7fadb1"
+  },
+  {
+    "path": "loadgen/Program.cs",
+    "bytes": 14870,
+    "sha256": "e14dbe3e2c36be59cdf6a35a8284a4b44f9176bf14a8c1b7e329bf8bfb8163f9"
+  },
+  {
+    "path": "loadgen/Metrics.cs",
+    "bytes": 1669,
+    "sha256": "5cb27ec4c37b5fe05dcb2a4c2214b9cf016fbd16189815827f454f9ac7ff0190"
+  },
+  {
+    "path": "loadgen/Loadgen.csproj",
+    "bytes": 294,
+    "sha256": "cbda77be076f6ff67d1a510c950892ab127591d8dec1e78eb4f9a23d48b41661"
+  },
+  {
+    "path": "loadgen/Dockerfile",
+    "bytes": 304,
+    "sha256": "d1979c4400def676bafc52d4f1e2307f94c8a015741093b0f33f5bf18d454210"
+  },
+  {
+    "path": "compose.yaml",
+    "bytes": 528,
+    "sha256": "98dfbe02d1ce44656ee647a12eab1ec13390f0ae489aa3ec058914a62eeeb6af"
+  },
+  {
+    "path": "monitor.sh",
+    "bytes": 1592,
+    "sha256": "60c7e7e133201bd06de937dd3916019970974849ba9ba2f9d3ed45cb660c6761"
+  },
+  {
+    "path": "Run-Benchmark.mjs",
+    "bytes": 5931,
+    "sha256": "acfc0736937317f28f3e175bc94c4dbd6294c2406d36169bf24ae0c56015d3db"
+  },
+  {
+    "path": "Analyze-Memory.mjs",
+    "bytes": 6577,
+    "sha256": "ce13e9cd69c89f8a1668c337ec157c0914fdc34dd95fea38cf25f93410662a0c"
+  },
+  {
+    "path": "payloads/input.json",
+    "bytes": 4096,
+    "sha256": "ef3e45cb72274671d9f74a7c0f6f05d81c67990aaa202a89784b899562c6fff5"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "StartedUtc": "2026-10-24T16:11:49.7285499+00:00",
+  "Options": {
+    "Command": "run",
+    "Ccu": [
+      100,
+      1000,
+      5000,
+      10000
+    ],
+    "Rows": 10000,
+    "PayloadBytes": 256,
+    "DurationSeconds": 3,
+    "WarmupSeconds": 1,
+    "CooldownSeconds": 1,
+    "Repetitions": 1,
+    "MaxInflight": 256,
+    "TimeoutSeconds": 30,
+    "Seed": 42,
+    "Database": "both",
+    "Output": "/results"
+  },
+  "Runtime": ".NET 10.0.13",
+  "OS": "Ubuntu 24.04.5 LTS",
+  "Architecture": "X64",
+  "ProcessorCount": 2,
+  "Model": "closed-loop, zero think time, uniform random primary-key read; sequential databases; alternating order per repetition",
+  "Latency": "all attempts include application queue \u002B driver \u002B database; logarithmic percentiles upper bound ~1%; success-only also exported",
+  "Throughput": "successful attempts / actual wall seconds including drain; admission stops at configured duration",
+  "Scylla": "single node, RF=1, consistency ONE, prepared statements, no retry policy",
+  "PostgreSql": "single node, auto-prepared parameterized SELECT, connection pool capped at max-inflight",
+  "Queue": "same application inflight limit for both drivers; queue timeout and driver timeout are separate budgets",
+  "WarmCache": true
+}

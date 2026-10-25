@@ -1,0 +1,116 @@
+[
+  {
+    "api": "dotnet",
+    "ccu": 100,
+    "baseline_rss_mib": 65.75,
+    "load_rss_mean_mib": 81.38125,
+    "load_rss_median_mib": 82,
+    "load_rss_sampled_max_mib": 82.875,
+    "process_hwm_mib": 89.75,
+    "post_idle_rss_mib": 89.75,
+    "load_cgroup_current_sampled_max_mib": 34.12890625,
+    "load_cgroup_working_set_sampled_max_mib": 34.12890625,
+    "cgroup_lifetime_peak_mib": 40.69140625,
+    "success_rps": 4570.725376756671,
+    "p95_ms": 67.81033485773025,
+    "rss_max_range": [
+      82.875,
+      83.875
+    ]
+  },
+  {
+    "api": "rust",
+    "ccu": 100,
+    "baseline_rss_mib": 3,
+    "load_rss_mean_mib": 5,
+    "load_rss_median_mib": 5,
+    "load_rss_sampled_max_mib": 5,
+    "process_hwm_mib": 5,
+    "post_idle_rss_mib": 4.66796875,
+    "load_cgroup_current_sampled_max_mib": 4.87890625,
+    "load_cgroup_working_set_sampled_max_mib": 4.8203125,
+    "cgroup_lifetime_peak_mib": 5.99609375,
+    "success_rps": 10630.30081326419,
+    "p95_ms": 11.886540571061328,
+    "rss_max_range": [
+      5,
+      5.25
+    ]
+  },
+  {
+    "api": "dotnet",
+    "ccu": 1000,
+    "baseline_rss_mib": 66.125,
+    "load_rss_mean_mib": 105.9125,
+    "load_rss_median_mib": 106.59375,
+    "load_rss_sampled_max_mib": 107.71875,
+    "process_hwm_mib": 114.46875,
+    "post_idle_rss_mib": 114.46875,
+    "load_cgroup_current_sampled_max_mib": 64.390625,
+    "load_cgroup_working_set_sampled_max_mib": 64.390625,
+    "cgroup_lifetime_peak_mib": 67.51171875,
+    "success_rps": 4794.918482549304,
+    "p95_ms": 310.78931391654686,
+    "rss_max_range": [
+      106.625,
+      109.25
+    ]
+  },
+  {
+    "api": "rust",
+    "ccu": 1000,
+    "baseline_rss_mib": 3,
+    "load_rss_mean_mib": 24.875,
+    "load_rss_median_mib": 24.875,
+    "load_rss_sampled_max_mib": 24.875,
+    "process_hwm_mib": 24.875,
+    "post_idle_rss_mib": 24.1875,
+    "load_cgroup_current_sampled_max_mib": 32.55078125,
+    "load_cgroup_working_set_sampled_max_mib": 32.55078125,
+    "cgroup_lifetime_peak_mib": 34.21875,
+    "success_rps": 10958.803568217425,
+    "p95_ms": 181.59834802068664,
+    "rss_max_range": [
+      24.625,
+      25.625
+    ]
+  },
+  {
+    "api": "dotnet",
+    "ccu": 5000,
+    "baseline_rss_mib": 65.75,
+    "load_rss_mean_mib": 173.64118303571428,
+    "load_rss_median_mib": 174.63671875,
+    "load_rss_sampled_max_mib": 179.73046875,
+    "process_hwm_mib": 185.73046875,
+    "post_idle_rss_mib": 185.73046875,
+    "load_cgroup_current_sampled_max_mib": 161.4296875,
+    "load_cgroup_working_set_sampled_max_mib": 161.23828125,
+    "cgroup_lifetime_peak_mib": 166.00390625,
+    "success_rps": 3988.2767438585406,
+    "p95_ms": 1808.6279468819528,
+    "rss_max_range": [
+      176.94140625,
+      180.01171875
+    ]
+  },
+  {
+    "api": "rust",
+    "ccu": 5000,
+    "baseline_rss_mib": 3,
+    "load_rss_mean_mib": 108.65,
+    "load_rss_median_mib": 115.5,
+    "load_rss_sampled_max_mib": 115.5,
+    "process_hwm_mib": 115.5,
+    "post_idle_rss_mib": 112.73046875,
+    "load_cgroup_current_sampled_max_mib": 160.94921875,
+    "load_cgroup_working_set_sampled_max_mib": 160.94921875,
+    "cgroup_lifetime_peak_mib": 162.20703125,
+    "success_rps": 10066.603937707676,
+    "p95_ms": 1133.0385059746884,
+    "rss_max_range": [
+      113.5,
+      115.75
+    ]
+  }
+]

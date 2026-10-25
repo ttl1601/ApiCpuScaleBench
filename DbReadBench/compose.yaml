@@ -1,0 +1,94 @@
+name: db-read-bench
+services:
+  redis:
+    image: redis:8.2.2
+    command: ["redis-server", "--appendonly", "yes", "--appendfsync", "everysec", "--save", "", "--maxmemory", "1gb", "--maxmemory-policy", "noeviction"]
+    cpus: 2
+    mem_limit: 3g
+    ports: ["127.0.0.1:16379:6379"]
+    volumes: ["redis-data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+  postgres:
+    image: postgres:17.6
+    environment:
+      POSTGRES_USER: bench
+      POSTGRES_PASSWORD: bench-local-only
+      POSTGRES_DB: bench
+    command: ["postgres", "-c", "max_connections=320", "-c", "shared_buffers=512MB"]
+    cpus: 2
+    mem_limit: 3g
+    shm_size: 512m
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["pg-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bench -d bench"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+  scylla:
+    image: scylladb/scylla:6.2.3
+    command: ["--smp", "2", "--memory", "1G", "--overprovisioned", "1", "--developer-mode", "1"]
+    cpus: 2
+    mem_limit: 3g
+    ports: ["127.0.0.1:9042:9042"]
+    volumes: ["scylla-data:/var/lib/scylla"]
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT release_version FROM system.local'"]
+      interval: 10s
+      timeout: 10s
+      retries: 60
+      start_period: 45s
+  mongodb:
+    image: mongo:8.0
+    command: ["mongod", "--bind_ip_all", "--wiredTigerCacheSizeGB", "1"]
+    cpus: 2
+    mem_limit: 3g
+    ports: ["127.0.0.1:27017:27017"]
+    volumes: ["mongo-data:/data/db"]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "quit(db.adminCommand({ping:1}).ok ? 0 : 1)"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+  cassandra:
+    image: cassandra:5.0.8
+    cpus: 2
+    mem_limit: 3g
+    environment:
+      CASSANDRA_CLUSTER_NAME: bench-cassandra
+      CASSANDRA_NUM_TOKENS: 16
+      MAX_HEAP_SIZE: 1024M
+      HEAP_NEWSIZE: 256M
+      JVM_OPTS: -XX:ActiveProcessorCount=2
+    ports: ["127.0.0.1:19042:9042"]
+    volumes: ["cassandra-data:/var/lib/cassandra"]
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT release_version FROM system.local'"]
+      interval: 10s
+      timeout: 10s
+      retries: 60
+      start_period: 60s
+  benchmark:
+    build: .
+    profiles: ["tools"]
+    cpus: 2
+    mem_limit: 3g
+    environment:
+      PG_CONNECTION: Host=postgres;Username=bench;Password=bench-local-only;Database=bench;GSS Encryption Mode=Disable
+      SCYLLA_HOST: scylla
+      REDIS_CONNECTION: redis:6379
+      CASSANDRA_HOST: cassandra
+      CASSANDRA_PORT: 9042
+      MONGO_CONNECTION: mongodb://mongodb:27017/?directConnection=true
+    volumes: ["./results:/results"]
+    command: ["run", "--output", "/results"]
+volumes:
+  redis-data:
+  pg-data:
+  scylla-data:
+  mongo-data:
+  cassandra-data:

@@ -1,0 +1,22 @@
+{
+  "StartedUtc": "2026-10-25T07:39:57.9400909+00:00",
+  "Ccu": [
+    100,
+    1000,
+    5000
+  ],
+  "Seconds": 20,
+  "Warmup": 5,
+  "Repetitions": 3,
+  "PayloadBytes": 4096,
+  "PayloadSha256": "EF3E45CB72274671D9F74A7C0F6F05D81C67990AAA202A89784B899562C6FFF5",
+  "Runtime": ".NET 10.0.13",
+  "ProcessorCount": 4,
+  "Model": "closed-loop zero think time; sequential targets; reversed order on even repetitions; warmup per scenario",
+  "Request": "HTTP/1.1 exact, keepalive, no TLS/compression, POST UTF-8 text to typed object and JSON echo",
+  "Validation": "all responses fully read and status checked; every 1024th successful worker response semantically checked; full functional suite run separately",
+  "TimeoutSeconds": 15,
+  "MaxConnectionsPerServer": 10000,
+  "CooldownSeconds": 2,
+  "Note": "Latency includes client queue/network/body transfer; RPS denominator includes drain. Not pure parser speed."
+}
